@@ -1,0 +1,23 @@
+{
+    "name": "gabesullice/phpfanout",
+    "description": "Toy demonstration of using php-fpm for \"multi-threaded\" execution.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GabeSullice\\PhpFanout\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Sullice",
+            "email": "gabriel@sullice.com"
+        }
+    ],
+    "require": {
+        "psr/http-server-handler": "^1.0",
+        "laminas/laminas-diactoros": "^2.19",
+        "hollodotme/fast-cgi-client": "^3.1",
+        "http-interop/response-sender": "^1.0"
+    }
+}
